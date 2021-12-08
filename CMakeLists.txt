@@ -1,6 +1,3 @@
-# This file was automatically generated for projects
-# without default 'CMakeLists.txt' file.
-
-FILE(GLOB_RECURSE app_sources C:/Users/ASUS/Plocha/Oskar/src/*.*)
-
-idf_component_register(SRCS ${app_sources})
+cmake_minimum_required(VERSION 3.16.0)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(Oskar_kod_funkcni)
